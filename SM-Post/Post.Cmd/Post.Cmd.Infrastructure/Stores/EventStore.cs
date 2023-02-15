@@ -18,6 +18,16 @@ public class EventStore : IEventStore
         _eventProducer = eventProducer;
     }
 
+    public async Task<List<Guid>> GetAggregateIdsAsync()
+    {
+        var eventStream = await _eventStoreRepository.FindAllAsync();
+
+        if (eventStream == null || !eventStream.Any())
+            throw new Exception("Null");
+
+        return eventStream.Select(x => x.AggregateIndentifier).Distinct().ToList();
+    }
+
     public async Task<List<BaseEvent>> GetAllEventsForAggregateAsync(Guid aggregateId)
     {
         var eventStream = await _eventStoreRepository.FingByAggregateId(aggregateId);

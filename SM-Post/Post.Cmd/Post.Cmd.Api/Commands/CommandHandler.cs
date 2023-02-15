@@ -64,4 +64,6 @@ public class CommandHandler : ICommandHandler
 
         await _eventSourcingHandler.SaveAsync(postAggregate);
     }
+
+    public async Task HandlerAsync(RestoreReadDbCommand command) => await _eventSourcingHandler.RepublishEventsAsync();
 }
