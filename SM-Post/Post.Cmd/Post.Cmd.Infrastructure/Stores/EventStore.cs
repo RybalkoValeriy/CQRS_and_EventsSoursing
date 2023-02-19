@@ -30,7 +30,7 @@ public class EventStore : IEventStore
 
     public async Task<List<BaseEvent>> GetAllEventsForAggregateAsync(Guid aggregateId)
     {
-        var eventStream = await _eventStoreRepository.FingByAggregateId(aggregateId);
+        var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
 
         if (eventStream.Any() is false) throw new Exception("Incorrect post Id provider");
 
@@ -39,7 +39,7 @@ public class EventStore : IEventStore
 
     public async Task SaveEventsAsync(Guid aggregateId, IEnumerable<BaseEvent> events, int expectedVersion)
     {
-        var eventStream = await _eventStoreRepository.FingByAggregateId(aggregateId);
+        var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
 
         // check if last version as a expected version then we can create a new version
         if (expectedVersion != -1 && eventStream[^1].Version != expectedVersion)

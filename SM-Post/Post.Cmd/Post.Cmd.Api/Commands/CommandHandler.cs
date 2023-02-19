@@ -8,7 +8,7 @@ public class CommandHandler : ICommandHandler
     private readonly IEventSourcingHandler<PostAggregate> _eventSourcingHandler;
 
     public CommandHandler(IEventSourcingHandler<PostAggregate> eventSourcingHandler)
-    => _eventSourcingHandler = eventSourcingHandler;
+        => _eventSourcingHandler = eventSourcingHandler;
 
     public async Task HandlerAsync(AddCommentCommand command)
     {
@@ -65,5 +65,6 @@ public class CommandHandler : ICommandHandler
         await _eventSourcingHandler.SaveAsync(postAggregate);
     }
 
-    public async Task HandlerAsync(RestoreReadDbCommand command) => await _eventSourcingHandler.RepublishEventsAsync();
+    public async Task HandlerAsync(RestoreReadDbCommand command)
+        => await _eventSourcingHandler.RepublishEventsAsync();
 }

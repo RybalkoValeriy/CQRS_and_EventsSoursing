@@ -14,14 +14,38 @@ using Post.Query.Infrastructure.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-Action<DbContextOptionsBuilder> configDbContext = (
-    o => o.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
+Action<DbContextOptionsBuilder> configDbContext;
+var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
+if (env.Equals("Development.PostgreSQL"))
+{
+    configDbContext = (
+        o => o.UseLazyLoadingProxies().UseNpgsql(builder.Configuration.GetConnectionString("SqlServer")));
+}
+else
+{
+    configDbContext = (
+        o => o.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
+}
+
+// Add services to the container.
+
 builder.Services.AddDbContext<DatabaseContext>(configDbContext);
 builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory(configDbContext));
 
 
 // create db table from code
-var dbContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
+DatabaseContext dbContext;
+try
+{
+    dbContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
+}
+catch (Exception e)
+{
+    Console.WriteLine(e);
+    throw;
+}
+
 dbContext.Database.EnsureCreated();
 
 builder.Services.AddSingleton<IPostRepository, PostRepository>();

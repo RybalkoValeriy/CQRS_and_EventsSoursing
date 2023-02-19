@@ -13,7 +13,7 @@ public class RestoreReadDbController : ControllerBase
     private readonly ICommandDispatcher _commandDispatcher;
 
     public RestoreReadDbController(
-        ILogger<RestoreReadDbController> logger, 
+        ILogger<RestoreReadDbController> logger,
         ICommandDispatcher commandDispatcher)
     {
         _logger = logger;
