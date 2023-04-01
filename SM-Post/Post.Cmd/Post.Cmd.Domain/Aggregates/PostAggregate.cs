@@ -11,9 +11,15 @@ public class PostAggregate : AggregateRoot
 
     private readonly Dictionary<Guid, Tuple<string, string>> _comments = new();
 
-    public bool Active { get => _active; set => _active = value; }
+    public bool Active
+    {
+        get => _active;
+        set => _active = value;
+    }
 
-    public PostAggregate() { }
+    public PostAggregate()
+    {
+    }
 
     public PostAggregate(
         Guid guid,
@@ -37,15 +43,22 @@ public class PostAggregate : AggregateRoot
 
     public void EditMessage(string message)
     {
-        if (_active is false) throw new InvalidOperationException("Can't add inactive post");
-
-        if (string.IsNullOrWhiteSpace(message)) throw new ArgumentNullException("The message should't be null");
-
-        RaiseEvent(new MessageUpdatedEvent
+        if (_active is false)
         {
-            Id = _id,
-            Message = message
-        });
+            throw new InvalidOperationException("Can't add inactive post");
+        }
+
+        if (string.IsNullOrWhiteSpace(message))
+        {
+            throw new ArgumentNullException("The message should't be null");
+        }
+
+        RaiseEvent(
+            new MessageUpdatedEvent
+            {
+                Id = _id,
+                Message = message
+            });
     }
 
     public void Apply(MessageUpdatedEvent @event)
@@ -54,9 +67,11 @@ public class PostAggregate : AggregateRoot
     public void LikePost()
     {
         if (_active is false)
+        {
             throw new Exception("the post should be active");
+        }
 
-        RaiseEvent(new PostLikedEvent { Id = _id });
+        RaiseEvent(new PostLikedEvent {Id = _id});
     }
 
     public void Apply(PostLikedEvent @event)
@@ -65,10 +80,15 @@ public class PostAggregate : AggregateRoot
     public void AddComment(string comment, string userName)
     {
         if (_active is false)
+        {
             throw new InvalidOperationException("the post should be active");
+        }
 
         if (string.IsNullOrWhiteSpace(comment))
+        {
             throw new ArgumentNullException("The comment should't be null");
+        }
+
 
         RaiseEvent(
             new CommentAddedEvent
@@ -139,7 +159,7 @@ public class PostAggregate : AggregateRoot
         if (_active is false)
             throw new InvalidOperationException("the post should be active");
 
-        RaiseEvent(new PostRemovedEvent { Id = _id });
+        RaiseEvent(new PostRemovedEvent {Id = _id});
     }
 
     public void Apply(PostRemovedEvent @event)

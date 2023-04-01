@@ -21,14 +21,12 @@ public class NewPostController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult> NewPostAsync(
-        NewPostCommand command)
+    public async Task<ActionResult> NewPostAsync(NewPostCommand command)
     {
         var id = Guid.NewGuid();
         try
         {
-            command.Id = id;
-            await _commandDispatcher.SendAsync(command);
+            await _commandDispatcher.SendAsync(command with {Id = id});
 
             return StatusCode(StatusCodes.Status201Created, new NewPostResponse
             {

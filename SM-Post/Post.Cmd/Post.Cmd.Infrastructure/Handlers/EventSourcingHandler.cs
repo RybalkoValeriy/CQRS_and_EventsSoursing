@@ -62,10 +62,10 @@ public class EventSourcingHandler : IEventSourcingHandler<PostAggregate>
         await _eventStore.SaveEventsAsync
             (
                 aggregate.Id,
-                aggregate.GetUncommitedChanges(),
+                aggregate.GetUncommittedChanges(),
                 aggregate.Version
             );
 
-        aggregate.MarkChangesAsCommited();
+        aggregate.MarkChangesAsCommitted();
     }
 }

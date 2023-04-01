@@ -25,7 +25,7 @@ public class LikePostController : ControllerBase
     {
         try
         {
-            await _commandDispatcher.SendAsync(new LikePostCommand { Id = id });
+            await _commandDispatcher.SendAsync(new LikePostCommand {Id = id});
 
             return Ok(new BaseResponse
             {

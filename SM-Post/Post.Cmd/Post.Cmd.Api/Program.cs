@@ -51,7 +51,7 @@ dispatcher.RegisterHandler<LikePostCommand>(commandHandler.HandlerAsync);
 dispatcher.RegisterHandler<DeletePostCommand>(commandHandler.HandlerAsync);
 dispatcher.RegisterHandler<EditMessageCommand>(commandHandler.HandlerAsync);
 dispatcher.RegisterHandler<RestoreReadDbCommand>(commandHandler.HandlerAsync);
-builder.Services.AddSingleton<ICommandDispatcher>(x => dispatcher);
+builder.Services.AddSingleton<ICommandDispatcher>(_ => dispatcher);
 
 var app = builder.Build();
 

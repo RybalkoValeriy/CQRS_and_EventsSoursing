@@ -5,6 +5,7 @@ using CQRS.Core.Producer;
 using Post.Cmd.Domain.Aggregates;
 
 namespace Post.Cmd.Infrastructure.Stores;
+
 public class EventStore : IEventStore
 {
     private readonly IEventStoreRepository _eventStoreRepository;
@@ -37,7 +38,10 @@ public class EventStore : IEventStore
         return eventStream.OrderBy(x => x.Version).Select(x => x.EventData).ToList();
     }
 
-    public async Task SaveEventsAsync(Guid aggregateId, IEnumerable<BaseEvent> events, int expectedVersion)
+    public async Task SaveEventsAsync(
+        Guid aggregateId,
+        IEnumerable<BaseEvent> events,
+        int expectedVersion)
     {
         var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
 

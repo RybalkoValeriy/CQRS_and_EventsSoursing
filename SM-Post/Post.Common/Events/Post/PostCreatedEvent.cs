@@ -1,7 +1,7 @@
 using CQRS.Core.Events;
 namespace Post.Common.Events;
 
-public class PostCreatedEvent : BaseEvent
+public record PostCreatedEvent : BaseEvent
 {
     public PostCreatedEvent() : base(nameof(PostCreatedEvent))
     {

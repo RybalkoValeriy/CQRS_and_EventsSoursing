@@ -25,7 +25,7 @@ public class RestoreReadDbController : ControllerBase
     {
         try
         {
-            await _commandDispatcher.SendAsync(new RestoreReadDbCommand());
+            await _commandDispatcher.SendAsync(new RestoreReadDbCommand {Id = Guid.Empty});
 
             return StatusCode(StatusCodes.Status201Created, new BaseResponse
             {

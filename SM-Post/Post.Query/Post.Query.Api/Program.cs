@@ -36,15 +36,8 @@ builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory
 
 // create db table from code
 DatabaseContext dbContext;
-try
-{
-    dbContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
-}
-catch (Exception e)
-{
-    Console.WriteLine(e);
-    throw;
-}
+
+dbContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseContext>();
 
 dbContext.Database.EnsureCreated();
 

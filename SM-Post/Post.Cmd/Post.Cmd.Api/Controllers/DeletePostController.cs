@@ -4,6 +4,7 @@ using Post.Cmd.Api.Commands;
 using Post.Common.DTOs;
 
 namespace Post.Cmd.Api.Controllers;
+
 [ApiController]
 [Route("api/v1/[controller]")]
 public class DeletePostController : ControllerBase
@@ -22,8 +23,7 @@ public class DeletePostController : ControllerBase
     {
         try
         {
-            command.Id = id;
-            await _commandDispatcher.SendAsync(command);
+            await _commandDispatcher.SendAsync(command with {Id = id});
 
             return Ok(new BaseResponse
             {

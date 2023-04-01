@@ -23,8 +23,7 @@ public class AddCommentController : ControllerBase
     {
         try
         {
-            command.Id = id;
-            await _commandDispatcher.SendAsync(command);
+            await _commandDispatcher.SendAsync(command with {Id = id});
 
             return Ok(new BaseResponse
             {

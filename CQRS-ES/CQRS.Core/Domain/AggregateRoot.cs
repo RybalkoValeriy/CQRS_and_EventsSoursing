@@ -9,7 +9,7 @@ public abstract class AggregateRoot
     // state changes of the aggregate
     private readonly List<BaseEvent> _changes = new();
 
-    public Guid Id { get => _id; }
+    public Guid Id => _id;
 
     public int Version { get; set; } = -1;
 
