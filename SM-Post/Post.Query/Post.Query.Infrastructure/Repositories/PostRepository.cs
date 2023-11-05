@@ -8,74 +8,90 @@ namespace Post.Query.Infrastructure.Repositories;
 public class PostRepository : IPostRepository
 {
     private readonly DatabaseContextFactory _contextFactory;
+
     public PostRepository(DatabaseContextFactory cf) => _contextFactory = cf;
-    public async Task CreateAsync(PostEntity post)
+
+    public async Task CreateAsync(Domain.Entities.Post post)
     {
-        using DatabaseContext context = _contextFactory.CreateDbContext();
+        await using var context = _contextFactory.CreateDbContext();
+
         context.Posts.Add(post);
 
-        _ = await context.SaveChangesAsync();
+        await context.SaveChangesAsync();
     }
 
     public async Task DeleteAsync(Guid postId)
     {
-        using DatabaseContext context = _contextFactory.CreateDbContext();
+        await using var context = _contextFactory.CreateDbContext();
+
         var post = await GetByIdAsync(postId);
 
-        if (post == null) return;
+        if (post is null)
+        {
+            return;
+        }
 
         context.Posts.Remove(post);
-        _ = await context.SaveChangesAsync();
+
+        await context.SaveChangesAsync();
     }
 
-    public async Task<List<PostEntity>> ListByAuthorAsync(string author)
+    public async Task<List<Domain.Entities.Post>> ListByAuthorAsync(string author)
     {
-        using DatabaseContext context = _contextFactory.CreateDbContext();
+        await using var context = _contextFactory.CreateDbContext();
+
         return await context.Posts.AsNoTracking()
-                .Include(i => i.Comments).AsNoTracking()
-                .Where(x => x.Author.Contains(author))
-                .ToListAsync();
+            .Include(i => i.Comments).AsNoTracking()
+            .Where(x => x.Author.Contains(author))
+            .ToListAsync();
     }
 
-    public async Task<PostEntity> GetByIdAsync(Guid postId)
+    public async Task<Domain.Entities.Post> GetByIdAsync(Guid postId)
     {
-        using DatabaseContext context = _contextFactory.CreateDbContext();
+        await using var context = _contextFactory.CreateDbContext();
+        
         return await context.Posts
-                .Include(i => i.Comments)
-                .FirstOrDefaultAsync(x => x.Id == postId);
+            .Include(i => i.Comments)
+            .FirstOrDefaultAsync(x => x.Id == postId);
     }
 
-    public async Task<List<PostEntity>> ListAllAsync()
+    public async Task<List<Domain.Entities.Post>> ListAllAsync()
     {
-        using DatabaseContext context = _contextFactory.CreateDbContext();
+        await using var context = _contextFactory.CreateDbContext();
+        
+        return await context.Posts
+            .AsNoTracking()
+            .Include(i => i.Comments)
+            .AsNoTracking()
+            .ToListAsync();
+    }
+
+    public async Task<List<Domain.Entities.Post>> ListWithCommentsAsync()
+    {
+        await using var context = _contextFactory.CreateDbContext();
         return await context.Posts.AsNoTracking()
-                .Include(i => i.Comments).AsNoTracking()
-                .ToListAsync();
+            .Include(i => i.Comments)
+            .AsNoTracking()
+            .Where(x => x.Comments != null && x.Comments.Any())
+            .ToListAsync();
     }
 
-    public async Task<List<PostEntity>> ListWithCommentsAsync()
+    public async Task<List<Domain.Entities.Post>> ListWithLikesAsync(int numberOfLikes)
     {
-        using DatabaseContext context = _contextFactory.CreateDbContext();
+        await using var context = _contextFactory.CreateDbContext();
+        
         return await context.Posts.AsNoTracking()
-                .Include(i => i.Comments).AsNoTracking()
-                .Where(x => x.Comments != null && x.Comments.Any())
-                .ToListAsync();
+            .Include(i => i.Comments)
+            .AsNoTracking()
+            .Where(x => x.Likes >= numberOfLikes)
+            .ToListAsync();
     }
 
-    public async Task<List<PostEntity>> ListWithLikesAsync(int numberOfLikes)
+    public async Task UpdateAsync(Domain.Entities.Post post)
     {
-        using DatabaseContext context = _contextFactory.CreateDbContext();
-        return await context.Posts.AsNoTracking()
-                .Include(i => i.Comments).AsNoTracking()
-                .Where(x => x.Likes >= numberOfLikes)
-                .ToListAsync();
-    }
-
-    public async Task UpdateAsync(PostEntity post)
-    {
-        using DatabaseContext context = _contextFactory.CreateDbContext();
+        await using var context = _contextFactory.CreateDbContext();
         context.Posts.Update(post);
 
-        _ = await context.SaveChangesAsync();
+        await context.SaveChangesAsync();
     }
 }

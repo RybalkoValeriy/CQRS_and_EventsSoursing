@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Post.Common.DTOs;
 using Post.Query.Api.DTOs;
 using Post.Query.Api.Queries;
-using Post.Query.Domain.Entities;
 
 namespace Post.Query.Api.Controllers;
 
@@ -12,9 +11,9 @@ namespace Post.Query.Api.Controllers;
 public class PostLookupController : ControllerBase
 {
     private readonly ILogger<PostLookupController> _logger;
-    private readonly IQueryDispatcher<PostEntity> _queryDispatcher;
+    private readonly IQueryDispatcher<Domain.Entities.Post> _queryDispatcher;
 
-    public PostLookupController(ILogger<PostLookupController> logger, IQueryDispatcher<PostEntity> queryDispatcher)
+    public PostLookupController(ILogger<PostLookupController> logger, IQueryDispatcher<Domain.Entities.Post> queryDispatcher)
     {
         _logger = logger;
         _queryDispatcher = queryDispatcher;
@@ -103,7 +102,7 @@ public class PostLookupController : ControllerBase
         }
     }
 
-    private ActionResult NormalResponse(List<PostEntity> posts)
+    private ActionResult NormalResponse(List<Domain.Entities.Post> posts)
     {
         if (posts == null || !posts.Any())
             return NoContent();

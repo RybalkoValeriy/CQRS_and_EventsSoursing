@@ -20,18 +20,18 @@ var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 if (env.Equals("Development.PostgreSQL"))
 {
     configDbContext = (
-        o => o.UseLazyLoadingProxies().UseNpgsql(builder.Configuration.GetConnectionString("SqlServer")));
+        o => o.UseLazyLoadingProxies(false).UseNpgsql(builder.Configuration.GetConnectionString("SqlServer")));
 }
 else
 {
     configDbContext = (
-        o => o.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
+        o => o.UseLazyLoadingProxies(false).UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
 }
 
 // Add services to the container.
 
 builder.Services.AddDbContext<DatabaseContext>(configDbContext);
-builder.Services.AddSingleton<DatabaseContextFactory>(new DatabaseContextFactory(configDbContext));
+builder.Services.AddSingleton(new DatabaseContextFactory(configDbContext));
 
 
 // create db table from code
@@ -42,22 +42,31 @@ dbContext = builder.Services.BuildServiceProvider().GetRequiredService<DatabaseC
 dbContext.Database.EnsureCreated();
 
 builder.Services.AddSingleton<IPostRepository, PostRepository>();
+builder.Services.AddSingleton<ITopicRepository, TopicRepository>();
 builder.Services.AddSingleton<ICommentRepository, CommentRepository>();
-builder.Services.AddSingleton<IQueryHandler, QueryHandler>();
+builder.Services.AddSingleton<IPostQueryHandler, PostQueryHandler>();
+builder.Services.AddSingleton<ITopicQueryHandler, TopicQueryHandler>();
 
 builder.Services.Configure<ConsumerConfig>(builder.Configuration.GetSection(nameof(ConsumerConfig)));
 builder.Services.AddScoped<IEventConsumer, EventConsumer>();
 builder.Services.AddSingleton<IEventHandler, Post.Query.Infrastructure.Handlers.EventHandler>();
 
 // register query handler methods
-var queryHandler = builder.Services.BuildServiceProvider().GetRequiredService<IQueryHandler>();
-var dispatcher = new QueryDispatcher();
-dispatcher.RegisterHandler<FindAllPostsQuery>(queryHandler.HandleAsync);
-dispatcher.RegisterHandler<FindPostByIdQuery>(queryHandler.HandleAsync);
-dispatcher.RegisterHandler<FindPostsByAuthorQuery>(queryHandler.HandleAsync);
-dispatcher.RegisterHandler<FindPostsWithCommentsQuery>(queryHandler.HandleAsync);
-dispatcher.RegisterHandler<FindPostsWithLikesQuery>(queryHandler.HandleAsync);
-builder.Services.AddScoped<IQueryDispatcher<PostEntity>>(_ => dispatcher);
+// Post
+var postQueryHandler = builder.Services.BuildServiceProvider().GetRequiredService<IPostQueryHandler>();
+var postQueryDispatcher = new QueryDispatcher<Post.Query.Domain.Entities.Post>()
+    .RegisterHandler<FindAllPostsQuery>(postQueryHandler.HandleAsync)
+    .RegisterHandler<FindPostByIdQuery>(postQueryHandler.HandleAsync)
+    .RegisterHandler<FindPostsByAuthorQuery>(postQueryHandler.HandleAsync)
+    .RegisterHandler<FindPostsWithCommentsQuery>(postQueryHandler.HandleAsync)
+    .RegisterHandler<FindPostsWithLikesQuery>(postQueryHandler.HandleAsync);
+builder.Services.AddScoped(_ => postQueryDispatcher);
+
+// Topic
+var topicQueryHandler = builder.Services.BuildServiceProvider().GetRequiredService<ITopicQueryHandler>();
+var topicQueryDispatcher = new QueryDispatcher<Topic>()
+    .RegisterHandler<GetAllTopicsQuery>(topicQueryHandler.HandleAsync);
+builder.Services.AddScoped(_ => topicQueryDispatcher);
 
 builder.Services.AddControllers();
 builder.Services.AddHostedService<ConsumerHostedService>();

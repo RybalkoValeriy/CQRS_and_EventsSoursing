@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net7.0": {
       "DnsClient/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -664,42 +664,43 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net7.0": [
       "MongoDB.Driver >= 2.18.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Valeriy\\.nuget\\packages\\": {},
+    "C:\\Users\\valerii.rybalko\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
+      "projectUniqueName": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
       "projectName": "CQRS.Core",
-      "projectPath": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
-      "packagesPath": "C:\\Users\\Valeriy\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\obj\\",
+      "projectPath": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj",
+      "packagesPath": "C:\\Users\\valerii.rybalko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\CQRS-ES\\CQRS.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Valeriy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\valerii.rybalko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com/LocusSolutions/index.json": {}
+        "https://nuget.frontiersin.net/api/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -710,8 +711,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "MongoDB.Driver": {
             "target": "Package",

@@ -4,16 +4,16 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Post.Query.Domain.Entities;
 
 [Table("Comment", Schema = "dbo")]
-public class CommentEntity
+public class Comment
 {
     [Key]
     public Guid CommentId { get; set; }
     public string UserName { get; set; }
     public DateTime CommentDate { get; set; }
-    public string Comment { get; set; }
+    public string CommentText { get; set; }
     public bool Edited { get; set; }
     public Guid PostId { get; set; }
 
     [System.Text.Json.Serialization.JsonIgnore]
-    public virtual PostEntity Post { get; set; }
+    public virtual Post Post { get; set; }
 }

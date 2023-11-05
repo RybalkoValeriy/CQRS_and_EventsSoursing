@@ -19,11 +19,11 @@ public class EventHandler : IEventHandler
 
     public async Task On(PostCreatedEvent @event)
     {
-        var post = new PostEntity
+        var post = new Domain.Entities.Post
         {
             Id = @event.Id,
             Author = @event.Auther,
-            DatePosted = @event.DatePosted,
+            DatePosted = @event.DatePosted.ToUniversalTime(),
             Message = @event.Message
         };
 
@@ -52,12 +52,12 @@ public class EventHandler : IEventHandler
 
     public async Task On(CommentAddedEvent @event)
     {
-        var comment = new CommentEntity
+        var comment = new Comment
         {
             PostId = @event.Id,
             CommentId = @event.CommentId,
             CommentDate = @event.CommentDate,
-            Comment = @event.Comment,
+            CommentText = @event.Comment,
             UserName = @event.UserName,
             Edited = false
         };
@@ -71,7 +71,7 @@ public class EventHandler : IEventHandler
 
         if (comment == null) return;
 
-        comment.Comment = @event.Comment;
+        comment.CommentText = @event.Comment;
         comment.Edited = true;
         comment.CommentDate = @event.EditDate;
 
