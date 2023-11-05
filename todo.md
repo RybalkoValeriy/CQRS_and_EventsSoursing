@@ -1,8 +1,0 @@
-- [ ] Create similar solution simplest solution to set kafka
-- [ ] Create simple ui
-- [ ] Replace class to record
-- [ ] Change MondoDb to Postgres document db
-- [ ] Test add comment controller
-- [ ] Test edit comment controller
-- [ ] Test remove comment controller
-- [ ] Bug with restore likes

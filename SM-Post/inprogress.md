@@ -1,5 +1,6 @@
 http://localhost:5020/api/v1/newPost
 
+- [ ] update libs to fresh
 - [x] return some test data some test data for
 - [ ] add seeding db by data
 - [ ] swagger is not working for Query service
