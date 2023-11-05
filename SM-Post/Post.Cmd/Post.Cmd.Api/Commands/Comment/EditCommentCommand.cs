@@ -2,7 +2,7 @@ using CQRS.Core.Commands;
 
 namespace Post.Cmd.Api.Commands;
 
-public record EditCommentCommand : BaseCommand
+public class EditCommentCommand : BaseCommand
 {
     public Guid CommentId { get; set; }
     public string Comment { get; set; } = string.Empty;

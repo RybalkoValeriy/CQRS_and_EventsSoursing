@@ -8,36 +8,20 @@
     <projectFile profileName="http">Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
     <projectFile profileName="https">Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="08542c78-69b0-4ca3-a581-168b683feff1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Infrastructure/IQueryDispatcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Queries/BaseQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.csproj.BuildWithSkipAnalyzers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources/2a3320a4-f23e-4e6c-bc92-9be7468754c8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/sm-post.metadata.v5.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/sm-post.projects.v5.2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SM-Post/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SM-Post/FileContentIndex/read.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SM-Post/config/applicationhost.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SM-Post/v17/.futdcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SM-Post/v17/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.csproj.BuildWithSkipAnalyzers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.csproj.BuildWithSkipAnalyzers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.csproj.BuildWithSkipAnalyzers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/Post.Query.Api.csproj.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Commands/BaseCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Commands/BaseCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Domain/AggregateRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Domain/AggregateRoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Domain/IEventStoreRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Domain/IEventStoreRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Events/BaseEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Events/BaseEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Handlers/IEventSourcingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Handlers/IEventSourcingHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Infrastructure/IEventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Infrastructure/IEventStore.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Messages/Message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/Messages/Message.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/bin/Debug/net6.0/CQRS.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/bin/Debug/net6.0/CQRS.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/bin/Debug/net6.0/CQRS.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/bin/Debug/net6.0/CQRS.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/CQRS.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/CQRS.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/CQRS.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/CQRS.Core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/Debug/net6.0/CQRS.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -48,144 +32,78 @@
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../CQRS-ES/CQRS.Core/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources/47d83e7e-b25b-4f1b-8975-473070226c29.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources/47d83e7e-b25b-4f1b-8975-473070226c29.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources/47d83e7e-b25b-4f1b-8975-473070226c29/storage_v2/_src_/database/postgres.edMnLQ/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources/47d83e7e-b25b-4f1b-8975-473070226c29/storage_v2/_src_/database/postgres.edMnLQ/schema/dbo.sYMBAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources/2a3320a4-f23e-4e6c-bc92-9be7468754c8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/dataSources/47d83e7e-b25b-4f1b-8975-473070226c29.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SM-Post/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Comment/AddCommentCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Comment/AddCommentCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Comment/EditCommentCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Comment/EditCommentCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Comment/RemoveCommentCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Comment/RemoveCommentCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/EditMessageCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/EditMessageCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Post/DeletePostCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Post/DeletePostCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Post/LikePostCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Post/LikePostCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Post/NewPostCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/Post/NewPostCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/RestoreReadDbCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Commands/RestoreReadDbCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/AddCommentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/AddCommentController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/DeletePostController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/DeletePostController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/EditCommentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/EditCommentController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/EditMessageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/EditMessageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/LikePostController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/LikePostController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/NewPostController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/NewPostController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/RemoveCommentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/RemoveCommentController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/RestoreReadDbController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/RestoreReadDbController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/CQRS.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/CQRS.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/CQRS.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/CQRS.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/bin/Debug/net6.0/Post.Cmd.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/Post.Cmd.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/project.razor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/ref/Post.Cmd.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/ref/Post.Cmd.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/refint/Post.Cmd.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Debug/net6.0/refint/Post.Cmd.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Post.Cmd.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Post.Cmd.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Post.Cmd.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/Post.Cmd.Api.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/Aggregates/PostAggregate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/Aggregates/PostAggregate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/bin/Debug/net6.0/CQRS.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/bin/Debug/net6.0/CQRS.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/bin/Debug/net6.0/CQRS.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/bin/Debug/net6.0/CQRS.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/bin/Debug/net6.0/Post.Cmd.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/bin/Debug/net6.0/Post.Cmd.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/bin/Debug/net6.0/Post.Cmd.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/bin/Debug/net6.0/Post.Cmd.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Debug/net6.0/Post.Cmd.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Post.Cmd.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Post.Cmd.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Post.Cmd.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/Post.Cmd.Domain.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/Handlers/EventSourcingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/Handlers/EventSourcingHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/Stores/EventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/Stores/EventStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/CQRS.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/CQRS.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/CQRS.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/CQRS.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/Post.Cmd.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/Post.Cmd.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/Post.Cmd.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/Post.Cmd.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/Post.Cmd.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/Post.Cmd.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/Post.Cmd.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/bin/Debug/net6.0/Post.Cmd.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Debug/net6.0/Post.Cmd.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Post.Cmd.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Post.Cmd.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Post.Cmd.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/Post.Cmd.Infrastructure.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Cmd/Post.Cmd.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Common/Events/Post/PostCreatedEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Common/Events/Post/PostCreatedEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Common/obj/Debug/net6.0/Post.Common.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Common/obj/Debug/net6.0/Post.Common.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Common/obj/Debug/net6.0/Post.Common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Common/obj/Debug/net6.0/Post.Common.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Common/obj/Debug/net6.0/Post.Common.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Common/obj/Debug/net6.0/Post.Common.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Common/obj/Post.Common.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Common/obj/Post.Common.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Common/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Common/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Common/obj/Post.Common.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Common/obj/Post.Common.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Common/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Common/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/Controllers/PostLookupContoller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/CQRS.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/CQRS.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/CQRS.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/CQRS.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/bin/Debug/net6.0/Post.Query.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/Post.Query.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/project.razor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/ref/Post.Query.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/ref/Post.Query.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/refint/Post.Query.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Debug/net6.0/refint/Post.Query.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Post.Query.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Post.Query.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Post.Query.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/Post.Query.Api.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/bin/Debug/net6.0/CQRS.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/bin/Debug/net6.0/CQRS.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/bin/Debug/net6.0/CQRS.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/bin/Debug/net6.0/CQRS.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/bin/Debug/net6.0/Post.Query.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/bin/Debug/net6.0/Post.Query.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/bin/Debug/net6.0/Post.Query.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/bin/Debug/net6.0/Post.Query.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Debug/net6.0/Post.Query.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Debug/net6.0/Post.Query.Domain.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Debug/net6.0/Post.Query.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Debug/net6.0/Post.Query.Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Debug/net6.0/Post.Query.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Debug/net6.0/Post.Query.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Debug/net6.0/Post.Query.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Debug/net6.0/Post.Query.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Post.Query.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Post.Query.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Post.Query.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/Post.Query.Domain.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/CQRS.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/CQRS.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/CQRS.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/CQRS.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/Post.Query.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/Post.Query.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/Post.Query.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/Post.Query.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/Post.Query.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/Post.Query.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/Post.Query.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/bin/Debug/net6.0/Post.Query.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Debug/net6.0/Post.Query.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Debug/net6.0/Post.Query.Infrastructure.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Debug/net6.0/Post.Query.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Debug/net6.0/Post.Query.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Debug/net6.0/Post.Query.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Debug/net6.0/Post.Query.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Debug/net6.0/Post.Query.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Debug/net6.0/Post.Query.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Post.Query.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Post.Query.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Post.Query.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/Post.Query.Infrastructure.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Post.Query/Post.Query.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/../todo.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Post.Cmd/Post.Cmd.Api/Controllers/NewPostController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -199,6 +117,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2KVVobeI7fRvtMZJu8KsssAdy1R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -214,8 +136,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.9314516&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -224,8 +150,8 @@
       &quot;documentdb&quot;
     ],
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Valeriy\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Valeriy\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Valeriy\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Valeriy\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
       &quot;C:\\Users\\Valeriy\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
@@ -366,6 +292,17 @@
       <workItem from="1679743130283" duration="47000" />
       <workItem from="1679743269103" duration="138000" />
       <workItem from="1680289440701" duration="191000" />
+      <workItem from="1680352691215" duration="202000" />
+      <workItem from="1682150296588" duration="56000" />
+      <workItem from="1682150473176" duration="40000" />
+      <workItem from="1686064981862" duration="22000" />
+      <workItem from="1687282608472" duration="108000" />
+      <workItem from="1688325809282" duration="75000" />
+      <workItem from="1689614463117" duration="100000" />
+      <workItem from="1690133794424" duration="37000" />
+      <workItem from="1690654440593" duration="81000" />
+      <workItem from="1691922787207" duration="49000" />
+      <workItem from="1692797904389" duration="81000" />
     </task>
     <servers />
   </component>

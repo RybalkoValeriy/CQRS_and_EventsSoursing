@@ -26,7 +26,7 @@ public class NewPostController : ControllerBase
         var id = Guid.NewGuid();
         try
         {
-            await _commandDispatcher.SendAsync(command with {Id = id});
+            await _commandDispatcher.SendAsync(command);
 
             return StatusCode(StatusCodes.Status201Created, new NewPostResponse
             {

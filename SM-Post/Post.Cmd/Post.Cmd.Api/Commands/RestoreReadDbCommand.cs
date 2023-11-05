@@ -2,4 +2,4 @@ using CQRS.Core.Commands;
 
 namespace Post.Cmd.Api.Commands;
 
-public record RestoreReadDbCommand : BaseCommand;
+public class RestoreReadDbCommand : BaseCommand { };

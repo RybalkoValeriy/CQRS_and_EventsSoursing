@@ -13,25 +13,29 @@ public abstract class AggregateRoot
 
     public int Version { get; set; } = -1;
 
-    public IEnumerable<BaseEvent> GetUncommitedChanges()
+    public IEnumerable<BaseEvent> GetUncommittedChanges()
         => _changes;
 
-    public void MarkChangesAsCommited()
+    public void MarkChangesAsCommitted()
         => _changes.Clear();
 
     public void ApplyChange(BaseEvent @event, bool isNew)
     {
         var method = this
             .GetType()
-            .GetMethod("Apply", new Type[] { @event.GetType() });
+            .GetMethod("Apply", new Type[] {@event.GetType()});
 
         if (method is null)
+        {
             throw new ArgumentNullException(nameof(method), $"Apply method is not found in aggregate for");
+        }
 
-        method.Invoke(this, new object[] { @event });
+        method.Invoke(this, new object[] {@event});
 
         if (isNew)
+        {
             _changes.Add(@event);
+        }
     }
 
     protected void RaiseEvent(BaseEvent @event)
