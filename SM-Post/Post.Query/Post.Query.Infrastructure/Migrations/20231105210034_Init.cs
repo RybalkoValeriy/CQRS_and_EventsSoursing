@@ -29,7 +29,7 @@ namespace Post.Query.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "User",
+                name: "Author",
                 schema: "dbo",
                 columns: table => new
                 {
@@ -84,7 +84,7 @@ namespace Post.Query.Infrastructure.Migrations
                         name: "FK_Topic_User_UserId",
                         column: x => x.UserId,
                         principalSchema: "dbo",
-                        principalTable: "User",
+                        principalTable: "Author",
                         principalColumn: "Id");
                 });
 
@@ -112,7 +112,7 @@ namespace Post.Query.Infrastructure.Migrations
                         name: "FK_Article_User_UserId",
                         column: x => x.UserId,
                         principalSchema: "dbo",
-                        principalTable: "User",
+                        principalTable: "Author",
                         principalColumn: "Id");
                 });
 
@@ -160,7 +160,7 @@ namespace Post.Query.Infrastructure.Migrations
                 schema: "dbo");
 
             migrationBuilder.DropTable(
-                name: "User",
+                name: "Author",
                 schema: "dbo");
         }
     }

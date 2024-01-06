@@ -3,13 +3,11 @@ using Post.Query.Domain.Repositories;
 
 namespace Post.Query.Api.Queries;
 
-public class TopicQueryHandler : ITopicQueryHandler
+public class TopicQueryHandler(ITopicRepository topicRepository) : ITopicQueryHandler
 {
-    private readonly ITopicRepository _topicRepository;
-
-    public TopicQueryHandler(ITopicRepository topicRepository) =>
-        _topicRepository = topicRepository;
-
     public Task<List<Topic>> HandleAsync(GetAllTopicsQuery query) =>
-        _topicRepository.GetAllAsync();
+        topicRepository.GetAllAsync();
+
+    public Task<Topic> HandleAsync(GetTopicByIdQuery query) =>
+        topicRepository.GetTopic(query.TopicId);
 }

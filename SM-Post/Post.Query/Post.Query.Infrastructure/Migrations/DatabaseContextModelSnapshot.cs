@@ -51,7 +51,7 @@ namespace Post.Query.Infrastructure.Migrations
 
             modelBuilder.Entity("Post.Query.Domain.Entities.Comment", b =>
                 {
-                    b.Property<Guid>("CommentId")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
@@ -70,7 +70,7 @@ namespace Post.Query.Infrastructure.Migrations
                     b.Property<string>("UserName")
                         .HasColumnType("text");
 
-                    b.HasKey("CommentId");
+                    b.HasKey("Id");
 
                     b.HasIndex("PostId");
 
@@ -119,7 +119,7 @@ namespace Post.Query.Infrastructure.Migrations
                     b.ToTable("Topic", "dbo");
                 });
 
-            modelBuilder.Entity("Post.Query.Domain.Entities.User", b =>
+            modelBuilder.Entity("Post.Query.Domain.Entities.Author", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -139,7 +139,7 @@ namespace Post.Query.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User", "dbo");
+                    b.ToTable("Author", "dbo");
                 });
 
             modelBuilder.Entity("Post.Query.Domain.Entities.Article", b =>
@@ -148,13 +148,13 @@ namespace Post.Query.Infrastructure.Migrations
                         .WithMany("Articles")
                         .HasForeignKey("TopicId");
 
-                    b.HasOne("Post.Query.Domain.Entities.User", "User")
+                    b.HasOne("Post.Query.Domain.Entities.Author", "Author")
                         .WithMany("Articles")
                         .HasForeignKey("UserId");
 
                     b.Navigation("Topic");
 
-                    b.Navigation("User");
+                    b.Navigation("Author");
                 });
 
             modelBuilder.Entity("Post.Query.Domain.Entities.Comment", b =>
@@ -170,11 +170,11 @@ namespace Post.Query.Infrastructure.Migrations
 
             modelBuilder.Entity("Post.Query.Domain.Entities.Topic", b =>
                 {
-                    b.HasOne("Post.Query.Domain.Entities.User", "User")
+                    b.HasOne("Post.Query.Domain.Entities.Author", "Author")
                         .WithMany("Topics")
                         .HasForeignKey("UserId");
 
-                    b.Navigation("User");
+                    b.Navigation("Author");
                 });
 
             modelBuilder.Entity("Post.Query.Domain.Entities.Post", b =>
@@ -187,7 +187,7 @@ namespace Post.Query.Infrastructure.Migrations
                     b.Navigation("Articles");
                 });
 
-            modelBuilder.Entity("Post.Query.Domain.Entities.User", b =>
+            modelBuilder.Entity("Post.Query.Domain.Entities.Author", b =>
                 {
                     b.Navigation("Articles");
 

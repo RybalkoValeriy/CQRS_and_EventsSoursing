@@ -3,6 +3,9 @@ using CQRS.Core.Infrastructure;
 
 namespace Post.Cmd.Infrastructure.Dispatchers;
 
+/// <summary>
+/// Command dispatcher to register commands + handler
+/// </summary>
 public class CommandDispatcher : ICommandDispatcher
 {
     private readonly Dictionary<Type, Func<BaseCommand, Task>> _handlers = new();

@@ -6,27 +6,18 @@ using Post.Common.DTOs;
 
 namespace Post.Cmd.Api.Controllers;
 [ApiController]
-[Route("api/v1/[controller]")]
-public class NewPostController : ControllerBase
+[Route("command/api/v1/[controller]")]
+public class NewPostController(
+    ILogger<NewPostController> logger,
+    ICommandDispatcher commandDispatcher) : ControllerBase
 {
-    private readonly ILogger<NewPostController> _logger;
-    private readonly ICommandDispatcher _commandDispatcher;
-
-    public NewPostController(
-        ILogger<NewPostController> logger,
-        ICommandDispatcher commandDispatcher)
-    {
-        _logger = logger;
-        _commandDispatcher = commandDispatcher;
-    }
-
     [HttpPost]
     public async Task<ActionResult> NewPostAsync(NewPostCommand command)
     {
         var id = Guid.NewGuid();
         try
         {
-            await _commandDispatcher.SendAsync(command);
+            await commandDispatcher.SendAsync(command);
 
             return StatusCode(StatusCodes.Status201Created, new NewPostResponse
             {
@@ -36,7 +27,7 @@ public class NewPostController : ControllerBase
         }
         catch (InvalidOperationException ex)
         {
-            _logger.Log(LogLevel.Warning, ex, "Client made a bad request!");
+            logger.Log(LogLevel.Warning, ex, "Client made a bad request!");
             return BadRequest(
                 new BaseResponse
                 {
@@ -46,7 +37,7 @@ public class NewPostController : ControllerBase
         catch (Exception ex)
         {
             const string SAFE_ERROR_MESSAGE = "Error while processing request to create a new post!";
-            _logger.Log(LogLevel.Error, ex, SAFE_ERROR_MESSAGE);
+            logger.Log(LogLevel.Error, ex, SAFE_ERROR_MESSAGE);
 
             return StatusCode(StatusCodes.Status500InternalServerError, new NewPostResponse
             {

@@ -6,7 +6,7 @@ using Post.Common.DTOs;
 namespace Post.Cmd.Api.Controllers;
 
 [ApiController]
-[Route("api/v1/[controller]")]
+[Route("command/api/v1/[controller]")]
 public class EditMessageController : ControllerBase
 {
     private readonly ILogger<EditMessageController> _logger;

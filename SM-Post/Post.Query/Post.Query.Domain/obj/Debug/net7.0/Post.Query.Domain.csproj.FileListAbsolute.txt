@@ -10,6 +10,7 @@ C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Domain\obj\Debug\net7.0\Post.Query.Domain.AssemblyInfoInputs.cache
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Domain\obj\Debug\net7.0\Post.Query.Domain.AssemblyInfo.cs
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Domain\obj\Debug\net7.0\Post.Query.Domain.csproj.CoreCompileInputs.cache
+C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Domain\obj\Debug\net7.0\Post.Query.Domain.sourcelink.json
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Domain\obj\Debug\net7.0\Post.Query.Domain.csproj.CopyComplete
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Domain\obj\Debug\net7.0\Post.Query.Domain.dll
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Domain\obj\Debug\net7.0\refint\Post.Query.Domain.dll

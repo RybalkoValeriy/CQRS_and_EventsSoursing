@@ -6,6 +6,7 @@ C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\CQRS-ES\CQRS.Core\
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\CQRS-ES\CQRS.Core\obj\Debug\net7.0\CQRS.Core.AssemblyInfoInputs.cache
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\CQRS-ES\CQRS.Core\obj\Debug\net7.0\CQRS.Core.AssemblyInfo.cs
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\CQRS-ES\CQRS.Core\obj\Debug\net7.0\CQRS.Core.csproj.CoreCompileInputs.cache
+C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\CQRS-ES\CQRS.Core\obj\Debug\net7.0\CQRS.Core.sourcelink.json
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\CQRS-ES\CQRS.Core\obj\Debug\net7.0\CQRS.Core.dll
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\CQRS-ES\CQRS.Core\obj\Debug\net7.0\refint\CQRS.Core.dll
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\CQRS-ES\CQRS.Core\obj\Debug\net7.0\CQRS.Core.pdb

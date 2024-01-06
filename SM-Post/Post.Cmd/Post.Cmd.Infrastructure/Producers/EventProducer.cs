@@ -26,13 +26,13 @@ public class EventProducer : IEventProducer
         .SetValueSerializer(Serializers.Utf8)
         .Build();
 
-        var eventMsg = new Message<string, string>
+        var message = new Message<string, string>
         {
             Key = Guid.NewGuid().ToString(),
             Value = JsonSerializer.Serialize(@event, @event.GetType())
         };
 
-        var deliveryResult = await producer.ProduceAsync(topic, eventMsg);
+        var deliveryResult = await producer.ProduceAsync(topic, message);
 
         if (deliveryResult.Status == PersistenceStatus.NotPersisted)
             throw new Exception(

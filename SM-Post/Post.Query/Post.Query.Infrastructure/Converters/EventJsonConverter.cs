@@ -2,16 +2,16 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using CQRS.Core.Events;
 using Post.Common.Events;
+using Post.Common.Events.Topic;
 
 namespace Post.Query.Infrastructure.Converters;
+
 public class EventJsonConverter : JsonConverter<BaseEvent>
 {
-    public override bool CanConvert(Type type)
-    {
-        return type.IsAssignableFrom(typeof(BaseEvent));
-    }
+    public override bool CanConvert(Type type) =>
+        type.IsAssignableFrom(typeof(BaseEvent));
 
-    public override BaseEvent Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+    public override BaseEvent? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions? options)
     {
         if (!JsonDocument.TryParseValue(ref reader, out var doc))
         {
@@ -24,6 +24,7 @@ public class EventJsonConverter : JsonConverter<BaseEvent>
         }
 
         var typeDiscriminator = type.GetString();
+
         var json = doc.RootElement.GetRawText();
 
         return typeDiscriminator switch
@@ -35,6 +36,7 @@ public class EventJsonConverter : JsonConverter<BaseEvent>
             nameof(CommentUpdatedEvent) => JsonSerializer.Deserialize<CommentUpdatedEvent>(json, options),
             nameof(CommentRemovedEvent) => JsonSerializer.Deserialize<CommentRemovedEvent>(json, options),
             nameof(PostRemovedEvent) => JsonSerializer.Deserialize<PostRemovedEvent>(json, options),
+            nameof(TopicCreateEvent) => JsonSerializer.Deserialize<TopicCreateEvent>(json, options),
             _ => throw new JsonException($"{typeDiscriminator} is not supported yet!")
         };
     }

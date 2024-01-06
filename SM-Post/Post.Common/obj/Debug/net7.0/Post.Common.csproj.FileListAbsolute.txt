@@ -8,6 +8,7 @@ C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Commo
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Common\obj\Debug\net7.0\Post.Common.AssemblyInfoInputs.cache
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Common\obj\Debug\net7.0\Post.Common.AssemblyInfo.cs
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Common\obj\Debug\net7.0\Post.Common.csproj.CoreCompileInputs.cache
+C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Common\obj\Debug\net7.0\Post.Common.sourcelink.json
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Common\obj\Debug\net7.0\Post.Common.csproj.CopyComplete
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Common\obj\Debug\net7.0\Post.Common.dll
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Common\obj\Debug\net7.0\refint\Post.Common.dll

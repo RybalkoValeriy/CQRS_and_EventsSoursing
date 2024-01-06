@@ -7,7 +7,7 @@ using Post.Query.Api.Queries;
 namespace Post.Query.Api.Controllers;
 
 [ApiController]
-[Route("api/v1/[controller]")]
+[Route("query/api/v1/[controller]")]
 public class PostLookupController : ControllerBase
 {
     private readonly ILogger<PostLookupController> _logger;

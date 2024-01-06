@@ -1,22 +1,21 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Post.Query.Infrastructure.DataAccess
+namespace Post.Query.Infrastructure.DataAccess;
+
+public class DatabaseContextFactory
 {
-    public class DatabaseContextFactory
+    private readonly Action<DbContextOptionsBuilder> _configureDbContext;
+
+    public DatabaseContextFactory(Action<DbContextOptionsBuilder> configureDbContext)
     {
-        private readonly Action<DbContextOptionsBuilder> _configureDbContext;
+        _configureDbContext = configureDbContext;
+    }
 
-        public DatabaseContextFactory(Action<DbContextOptionsBuilder> configureDbContext)
-        {
-            _configureDbContext = configureDbContext;
-        }
+    public DatabaseContext CreateDbContext()
+    {
+        DbContextOptionsBuilder<DatabaseContext> optionsBuilder = new();
+        _configureDbContext(optionsBuilder);
 
-        public DatabaseContext CreateDbContext()
-        {
-            DbContextOptionsBuilder<DatabaseContext> optionsBuilder = new();
-            _configureDbContext(optionsBuilder);
-
-            return new DatabaseContext(optionsBuilder.Options);
-        }
+        return new DatabaseContext(optionsBuilder.Options);
     }
 }

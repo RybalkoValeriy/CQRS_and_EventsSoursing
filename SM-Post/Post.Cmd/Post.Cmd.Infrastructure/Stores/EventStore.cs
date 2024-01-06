@@ -2,52 +2,60 @@ using CQRS.Core.Domain;
 using CQRS.Core.Events;
 using CQRS.Core.Infrastructure;
 using CQRS.Core.Producer;
-using Post.Cmd.Domain.Aggregates;
 
 namespace Post.Cmd.Infrastructure.Stores;
 
-public class EventStore : IEventStore
+/// <summary>
+/// Save to EventStore(RepoMongoDb) and publish event to Kafka
+/// </summary>
+public class EventStore(
+    IEventStoreRepository eventStoreRepository,
+    IEventProducer eventProducer)
+    : IEventStore
 {
-    private readonly IEventStoreRepository _eventStoreRepository;
-    private readonly IEventProducer _eventProducer;
-
-    public EventStore(
-        IEventStoreRepository eventStoreRepostiry,
-        IEventProducer eventProducer)
-    {
-        _eventStoreRepository = eventStoreRepostiry;
-        _eventProducer = eventProducer;
-    }
-
     public async Task<List<Guid>> GetAggregateIdsAsync()
     {
-        var eventStream = await _eventStoreRepository.FindAllAsync();
+        var eventStream = await eventStoreRepository.FindAllAsync();
 
-        if (eventStream == null || !eventStream.Any())
+        if (eventStream is not { Count: 0 })
+        {
             throw new Exception("Null");
+        }
 
-        return eventStream.Select(x => x.AggregateIndentifier).Distinct().ToList();
+        return eventStream
+            .Select(x => x.AggregateIdentifier)
+            .Distinct()
+            .ToList();
     }
 
     public async Task<List<BaseEvent>> GetAllEventsForAggregateAsync(Guid aggregateId)
     {
-        var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
+        var eventStream = await eventStoreRepository.FindByAggregateId(aggregateId);
 
-        if (eventStream.Any() is false) throw new Exception("Incorrect post Id provider");
+        if (eventStream is not { Count: 0 })
+        {
+            throw new Exception("Incorrect post Id provider");
+        }
 
-        return eventStream.OrderBy(x => x.Version).Select(x => x.EventData).ToList();
+        return eventStream
+            .OrderBy(x => x.Version)
+            .Select(x => x.EventData)
+            .ToList();
     }
 
     public async Task SaveEventsAsync(
         Guid aggregateId,
+        string aggregateType,
         IEnumerable<BaseEvent> events,
         int expectedVersion)
     {
-        var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
+        var eventStream = await eventStoreRepository.FindByAggregateId(aggregateId);
 
-        // check if last version as a expected version then we can create a new version
+        // check if last version as an expected version then we can create a new version
         if (expectedVersion != -1 && eventStream[^1].Version != expectedVersion)
+        {
             throw new Exception("Concurrency exception"); // optimistic
+        }
 
         var version = expectedVersion;
 
@@ -60,17 +68,17 @@ public class EventStore : IEventStore
             var eventModel = new EventModel
             {
                 TimeStamp = DateTime.Now,
-                AggregateIndentifier = aggregateId,
-                AggregateType = nameof(PostAggregate),
+                AggregateIdentifier = aggregateId,
+                AggregateType = aggregateType,
                 Version = version,
                 EventType = eventType,
                 EventData = @event
             };
 
-            await _eventStoreRepository.SaveAsync(eventModel);
+            await eventStoreRepository.SaveAsync(eventModel);
 
             var topic = Environment.GetEnvironmentVariable("KAFKA_TOPIC");
-            await _eventProducer.ProduceAsync(topic, @event);
+            await eventProducer.ProduceAsync(topic, @event);
         }
     }
 }

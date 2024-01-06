@@ -13,24 +13,22 @@ public abstract class AggregateRoot
 
     public int Version { get; set; } = -1;
 
-    public IEnumerable<BaseEvent> GetUncommittedChanges()
-        => _changes;
+    public IEnumerable<BaseEvent> GetUncommittedChanges() => _changes;
 
-    public void MarkChangesAsCommitted()
-        => _changes.Clear();
+    public void MarkChangesAsCommitted() => _changes.Clear();
 
     public void ApplyChange(BaseEvent @event, bool isNew)
     {
         var method = this
             .GetType()
-            .GetMethod("Apply", new Type[] {@event.GetType()});
+            .GetMethod("Apply", new[] { @event.GetType() });
 
         if (method is null)
         {
-            throw new ArgumentNullException(nameof(method), $"Apply method is not found in aggregate for");
+            throw new ArgumentNullException(nameof(method), "Apply method is not found in aggregate for");
         }
 
-        method.Invoke(this, new object[] {@event});
+        method.Invoke(this, new object[] { @event });
 
         if (isNew)
         {
@@ -38,10 +36,9 @@ public abstract class AggregateRoot
         }
     }
 
-    protected void RaiseEvent(BaseEvent @event)
-        => ApplyChange(@event, true);
+    protected void RaiseEvent(BaseEvent @event) => ApplyChange(@event, true);
 
-    // use for apply all changes for postAggregate afteg fetching
+    // use for apply all changes for postAggregate after fetching
     public void ReplayEvent(IEnumerable<BaseEvent> events)
     {
         foreach (var @event in events)

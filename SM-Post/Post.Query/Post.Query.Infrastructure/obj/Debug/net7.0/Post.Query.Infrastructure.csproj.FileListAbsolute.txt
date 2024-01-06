@@ -1,4 +1,5 @@
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\bin\Debug\net7.0\Post.Query.Infrastructure.deps.json
+C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\bin\Debug\net7.0\Post.Query.Infrastructure.runtimeconfig.json
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\bin\Debug\net7.0\Post.Query.Infrastructure.dll
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\bin\Debug\net7.0\Post.Query.Infrastructure.pdb
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\bin\Debug\net7.0\CQRS.Core.dll
@@ -12,10 +13,10 @@ C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\Post.Query.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\Post.Query.Infrastructure.AssemblyInfo.cs
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\Post.Query.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\Post.Query.Infrastructure.sourcelink.json
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\Post.Query.Infrastructure.csproj.CopyComplete
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\Post.Query.Infrastructure.dll
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\refint\Post.Query.Infrastructure.dll
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\Post.Query.Infrastructure.pdb
-C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\ref\Post.Query.Infrastructure.dll
-C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\bin\Debug\net7.0\Post.Query.Infrastructure.runtimeconfig.json
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\Post.Query.Infrastructure.genruntimeconfig.cache
+C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Query\Post.Query.Infrastructure\obj\Debug\net7.0\ref\Post.Query.Infrastructure.dll

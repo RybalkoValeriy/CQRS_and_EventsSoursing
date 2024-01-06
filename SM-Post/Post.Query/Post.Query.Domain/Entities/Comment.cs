@@ -1,13 +1,14 @@
+using CQRS.Core.Domain;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Post.Query.Domain.Entities;
 
 [Table("Comment", Schema = "dbo")]
-public class Comment
+public class Comment : IEntity<Guid>
 {
     [Key]
-    public Guid CommentId { get; set; }
+    public Guid Id { get; set; }
     public string UserName { get; set; }
     public DateTime CommentDate { get; set; }
     public string CommentText { get; set; }

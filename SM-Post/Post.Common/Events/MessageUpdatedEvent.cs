@@ -2,11 +2,7 @@ using CQRS.Core.Events;
 
 namespace Post.Common.Events;
 
-public class MessageUpdatedEvent : BaseEvent
+public class MessageUpdatedEvent() : BaseEvent(nameof(MessageUpdatedEvent))
 {
-    public MessageUpdatedEvent() : base(nameof(MessageUpdatedEvent))
-    {
-    }
-
     public string Message { get; set; } = string.Empty;
 }

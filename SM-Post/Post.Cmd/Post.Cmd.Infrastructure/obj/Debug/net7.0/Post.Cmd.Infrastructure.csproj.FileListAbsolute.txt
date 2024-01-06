@@ -12,6 +12,7 @@ C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Cmd\P
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net7.0\Post.Cmd.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net7.0\Post.Cmd.Infrastructure.AssemblyInfo.cs
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net7.0\Post.Cmd.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net7.0\Post.Cmd.Infrastructure.sourcelink.json
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net7.0\Post.Cmd.Infrastructure.csproj.CopyComplete
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net7.0\Post.Cmd.Infrastructure.dll
 C:\Users\valerii.rybalko\source\repos\CQRS_and_EventsSoursing\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net7.0\refint\Post.Cmd.Infrastructure.dll

@@ -22,9 +22,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Infrastructure", "Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17AD8CEC-88CE-4B26-ABDB-3E3CCC6B277E}"
-	ProjectSection(SolutionItems) = preProject
-		inprogress.md = inprogress.md
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Common", "Post.Common\Post.Common.csproj", "{A16D2000-B538-40E8-A610-E3E98CC9C41F}"
 EndProject

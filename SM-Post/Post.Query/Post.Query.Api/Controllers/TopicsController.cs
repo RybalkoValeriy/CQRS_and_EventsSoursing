@@ -1,36 +1,44 @@
 ﻿using CQRS.Core.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
-using Post.Query.Api.DTOs;
 using Post.Query.Api.Queries;
 using Post.Query.Domain.Entities;
 
 namespace Post.Query.Api.Controllers;
 
 [ApiController]
-[Route("api/v1/[controller]")]
-public class TopicsController : ControllerBase
+[Route("query/api/v1/[controller]")]
+public class TopicsController(
+    IQueryResolver queryResolver,
+    ILogger<PostLookupController> logger)
+    : ControllerBase
 {
-    private readonly ILogger<PostLookupController> _logger;
-    private readonly IQueryDispatcher<Topic> _topicQueryDispatcher;
-
-    public TopicsController(
-        IQueryDispatcher<Topic> topicQueryDispatcher,
-        ILogger<PostLookupController> logger)
-    {
-        _topicQueryDispatcher = topicQueryDispatcher;
-        _logger = logger;
-    }
-
     [HttpGet]
-    public async Task<IActionResult> Get()
+    public async Task<IActionResult> GetAll()
     {
-        var topics = await _topicQueryDispatcher.SendAsync(new GetAllTopicsQuery());
+        // todo: continue implementation 
 
-        return Ok(
-            new TopicsResponse
-            {
-                Message = "Successfully returned",
-                Type = topics
-            });
+        var topics = await queryResolver
+            .ResolveFor<GetAllTopicsQuery, List<Topic>>()
+            .SendAsync(new GetAllTopicsQuery());
+
+        return Ok(topics);
     }
+
+    // [HttpGet("{topicId:guid}")]
+    // public async Task<ActionResult<Topic>> Get([FromRoute] Guid topicId)
+    // {
+    //     var topic = await queryResolver.SendAsync(
+    //         new GetTopicByIdQuery
+    //         {
+    //             TopicId = topicId
+    //         });
+    //
+    //     if (topic is not null)
+    //     {
+    //         return Ok(topic);
+    //     }
+    //
+    //     logger.LogWarning("topic id:{topicId} is not found", topicId);
+    //     return new NotFoundResult();
+    // }
 }

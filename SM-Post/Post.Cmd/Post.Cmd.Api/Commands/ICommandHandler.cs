@@ -1,3 +1,5 @@
+using Post.Cmd.Api.Commands.Topic;
+
 namespace Post.Cmd.Api.Commands;
 public interface ICommandHandler
 {
@@ -12,4 +14,5 @@ public interface ICommandHandler
     Task HandlerAsync(EditMessageCommand command);
     Task HandlerAsync(RestoreReadDbCommand command);
 
+    Task HandlerAsync(NewTopicCommand command);
 }
