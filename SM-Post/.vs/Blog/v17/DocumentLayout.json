@@ -1,0 +1,673 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\controllers\\restorereaddbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\restorereaddbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\controllers\\removecommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\removecommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\controllers\\newtopiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\newtopiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\newpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FDC658-7097-4E4E-8D53-F7A5D38391E3}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.infrastructure\\repository\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FDC658-7097-4E4E-8D53-F7A5D38391E3}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\repository\\eventstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.infrastructure\\resolver\\queryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\resolver\\queryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.infrastructure\\dataaccess\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\dataaccess\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\dtos\\newpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\dtos\\newpostresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\controllers\\addcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\addcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\controllers\\deletepostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\deletepostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\controllers\\editcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\editcommentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\controllers\\editmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\controllers\\editmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FDC658-7097-4E4E-8D53-F7A5D38391E3}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.infrastructure\\producers\\eventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FDC658-7097-4E4E-8D53-F7A5D38391E3}|Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj|solutionrelative:post.cmd\\post.cmd.infrastructure\\producers\\eventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.infrastructure\\consumers\\consumerhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\consumers\\consumerhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.infrastructure\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\controllers\\topicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\controllers\\topicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\controllers\\postlookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\controllers\\postlookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7724A554-9F3D-4629-AA05-5364347F542A}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\dev\\sources\\udemycqrs\\cqrs-es\\cqrs.core\\queries\\iqueryresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\queries\\topics\\getall\\getalltopicsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\queries\\topics\\getall\\getalltopicsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\queries\\topics\\topicqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\queries\\topics\\topicqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\queries\\topics\\itopicqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\queries\\topics\\itopicqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7724A554-9F3D-4629-AA05-5364347F542A}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\dev\\sources\\udemycqrs\\cqrs-es\\cqrs.core\\commands\\icommandresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.cmd\\post.cmd.api\\commands\\topic\\newtopiccommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E99E67-0C41-4791-B1F4-9D6450C9F3BC}|Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj|solutionrelative:post.cmd\\post.cmd.api\\commands\\topic\\newtopiccommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7724A554-9F3D-4629-AA05-5364347F542A}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\dev\\sources\\udemycqrs\\cqrs-es\\cqrs.core\\handlers\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.infrastructure\\dataaccess\\entitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\dataaccess\\entitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07699212-F0BC-4DD7-9F71-A9AC0A0AF16B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07699212-F0BC-4DD7-9F71-A9AC0A0AF16B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|solutionrelative:post.query\\post.query.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\queries\\post\\findpostswithlikesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\queries\\post\\findpostswithlikesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\queries\\post\\findpostswithcommentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\queries\\post\\findpostswithcommentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.api\\queries\\post\\findpostsbyauthorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B30105D-7542-401E-A28A-DFF5F6160034}|Post.Query\\Post.Query.Api\\Post.Query.Api.csproj|solutionrelative:post.query\\post.query.api\\queries\\post\\findpostsbyauthorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07699212-F0BC-4DD7-9F71-A9AC0A0AF16B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.domain\\repositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07699212-F0BC-4DD7-9F71-A9AC0A0AF16B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|solutionrelative:post.query\\post.query.domain\\repositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7724A554-9F3D-4629-AA05-5364347F542A}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\dev\\sources\\udemycqrs\\cqrs-es\\cqrs.core\\handlers\\iqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7724A554-9F3D-4629-AA05-5364347F542A}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\dev\\sources\\udemycqrs\\cqrs-es\\cqrs.core\\queries\\basequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7724A554-9F3D-4629-AA05-5364347F542A}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\dev\\sources\\udemycqrs\\cqrs-es\\cqrs.core\\commands\\basecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7724A554-9F3D-4629-AA05-5364347F542A}|..\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj|c:\\dev\\sources\\udemycqrs\\cqrs-es\\cqrs.core\\handlers\\ieventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.infrastructure\\handlers\\topiccreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\handlers\\topiccreatedeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.infrastructure\\handlers\\ieventhandlerold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\handlers\\ieventhandlerold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07699212-F0BC-4DD7-9F71-A9AC0A0AF16B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.domain\\entities\\id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07699212-F0BC-4DD7-9F71-A9AC0A0AF16B}|Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj|solutionrelative:post.query\\post.query.domain\\entities\\id.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|c:\\dev\\sources\\udemycqrs\\sm-post\\post.query\\post.query.infrastructure\\handlers\\eventhandlerold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF26B2A-0856-4B0E-A8CA-74FEEBC2CA48}|Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj|solutionrelative:post.query\\post.query.infrastructure\\handlers\\eventhandlerold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 67,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventStoreRepository.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Repository\\EventStoreRepository.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Repository\\EventStoreRepository.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Repository\\EventStoreRepository.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Repository\\EventStoreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:54:27.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventProducer.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Producers\\EventProducer.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Infrastructure\\Producers\\EventProducer.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Producers\\EventProducer.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Infrastructure\\Producers\\EventProducer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T09:26:32.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\DataAccess\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\DataAccess\\DatabaseContext.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\DataAccess\\DatabaseContext.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\DataAccess\\DatabaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T19:35:53.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditCommentController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\EditCommentController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\EditCommentController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\EditCommentController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\EditCommentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T22:18:19.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewPostController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewPostController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T20:54:57.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewTopicController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewTopicController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewTopicController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\NewTopicController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\NewTopicController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T17:50:10.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RemoveCommentController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RemoveCommentController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RemoveCommentController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RemoveCommentController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RemoveCommentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:49:46.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RestoreReadDbController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\RestoreReadDbController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:49:58.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditMessageController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\EditMessageController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\EditMessageController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\EditMessageController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\EditMessageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:49:42.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeletePostController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\DeletePostController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\DeletePostController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\DeletePostController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\DeletePostController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:49:44.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QueryResolver.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Resolver\\QueryResolver.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Resolver\\QueryResolver.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Resolver\\QueryResolver.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Resolver\\QueryResolver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T17:21:55.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NewPostResponse.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\DTOs\\NewPostResponse.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\DTOs\\NewPostResponse.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\DTOs\\NewPostResponse.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\DTOs\\NewPostResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:50:00.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TopicsController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\TopicsController.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Controllers\\TopicsController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\TopicsController.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Controllers\\TopicsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T13:04:55.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Program.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Program.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T19:57:56.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddCommentController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Controllers\\AddCommentController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T19:03:55.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Configuration.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Configuration.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Configuration.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T13:28:56.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConsumerHostedService.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Consumers\\ConsumerHostedService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T09:26:14.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PostLookupController.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Controllers\\PostLookupController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAABUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T16:49:28.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IQueryResolver.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Queries\\IQueryResolver.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Queries\\IQueryResolver.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Queries\\IQueryResolver.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Queries\\IQueryResolver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T16:47:45.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetAllTopicsQueryHandler.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Topics\\GetAll\\GetAllTopicsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Queries\\Topics\\GetAll\\GetAllTopicsQueryHandler.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Topics\\GetAll\\GetAllTopicsQueryHandler.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Queries\\Topics\\GetAll\\GetAllTopicsQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T19:03:31.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITopicQueryHandler.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Topics\\ITopicQueryHandler.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Queries\\Topics\\ITopicQueryHandler.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Topics\\ITopicQueryHandler.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Queries\\Topics\\ITopicQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T20:28:38.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TopicQueryHandler.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Topics\\TopicQueryHandler.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Queries\\Topics\\TopicQueryHandler.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Topics\\TopicQueryHandler.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Queries\\Topics\\TopicQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T20:28:42.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICommandResolver.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Commands\\ICommandResolver.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Commands\\ICommandResolver.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Commands\\ICommandResolver.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Commands\\ICommandResolver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T17:45:06.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NewTopicCommandHandler.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\Topic\\NewTopicCommandHandler.cs",
+              "RelativeDocumentMoniker": "Post.Cmd\\Post.Cmd.Api\\Commands\\Topic\\NewTopicCommandHandler.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Commands\\Topic\\NewTopicCommandHandler.cs",
+              "RelativeToolTip": "Post.Cmd\\Post.Cmd.Api\\Commands\\Topic\\NewTopicCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T17:55:39.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Handlers\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Handlers\\ICommandHandler.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Handlers\\ICommandHandler.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Handlers\\ICommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T17:39:57.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\DataAccess\\EntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\DataAccess\\EntityTypeConfiguration.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\DataAccess\\EntityTypeConfiguration.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\DataAccess\\EntityTypeConfiguration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T19:37:02.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FindPostsWithLikesQuery.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsWithLikesQuery.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsWithLikesQuery.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsWithLikesQuery.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsWithLikesQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T19:03:40.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FindPostsWithCommentsQuery.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsWithCommentsQuery.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsWithCommentsQuery.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsWithCommentsQuery.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsWithCommentsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T19:03:39.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FindPostsByAuthorQuery.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsByAuthorQuery.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsByAuthorQuery.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsByAuthorQuery.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Queries\\Post\\FindPostsByAuthorQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T19:03:38.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Domain\\Repositories\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Domain\\Repositories\\IPostRepository.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Domain\\Repositories\\IPostRepository.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Domain\\Repositories\\IPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-02T16:32:27.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseCommand.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Commands\\BaseCommand.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Commands\\BaseCommand.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Commands\\BaseCommand.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Commands\\BaseCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T17:40:01.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IQueryHandler.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Handlers\\IQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Handlers\\IQueryHandler.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Handlers\\IQueryHandler.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Handlers\\IQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T17:40:10.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IEventHandler.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Handlers\\IEventHandler.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Handlers\\IEventHandler.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Handlers\\IEventHandler.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Handlers\\IEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T17:40:07.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BaseQuery.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Queries\\BaseQuery.cs",
+              "RelativeDocumentMoniker": "..\\CQRS-ES\\CQRS.Core\\Queries\\BaseQuery.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\Queries\\BaseQuery.cs",
+              "RelativeToolTip": "..\\CQRS-ES\\CQRS.Core\\Queries\\BaseQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-01T16:47:54.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TopicCreatedEventHandler.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Handlers\\TopicCreatedEventHandler.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Handlers\\TopicCreatedEventHandler.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Handlers\\TopicCreatedEventHandler.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Handlers\\TopicCreatedEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T17:23:14.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IEventHandlerOld.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Handlers\\IEventHandlerOld.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Handlers\\IEventHandlerOld.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Handlers\\IEventHandlerOld.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Handlers\\IEventHandlerOld.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T17:23:12.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EventHandlerOld.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Handlers\\EventHandlerOld.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Infrastructure\\Handlers\\EventHandlerOld.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Infrastructure\\Handlers\\EventHandlerOld.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Infrastructure\\Handlers\\EventHandlerOld.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T17:23:11.103Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 49,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Api\\Program.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Api\\Program.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Api\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T13:06:52.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T19:17:23.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Id.cs",
+              "DocumentMoniker": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Domain\\Entities\\Id.cs",
+              "RelativeDocumentMoniker": "Post.Query\\Post.Query.Domain\\Entities\\Id.cs",
+              "ToolTip": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Domain\\Entities\\Id.cs",
+              "RelativeToolTip": "Post.Query\\Post.Query.Domain\\Entities\\Id.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-14T19:26:19.257Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
