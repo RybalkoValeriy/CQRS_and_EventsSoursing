@@ -5,16 +5,11 @@ using Post.Query.Infrastructure.DataAccess;
 
 namespace Post.Query.Infrastructure.Repositories;
 
-public class TopicRepository : ITopicRepository
+public class TopicRepository(DatabaseContextFactory contextFactory) : ITopicRepository
 {
-    private readonly DatabaseContextFactory _contextFactory;
-
-    public TopicRepository(DatabaseContextFactory contextFactory) =>
-        _contextFactory = contextFactory;
-
     public async Task<List<Topic>> GetAllAsync(CancellationToken cancellationToken = default)
     {
-        await using var context = _contextFactory.CreateDbContext();
+        await using var context = contextFactory.CreateDbContext();
 
         return await context
             .Topics
@@ -24,18 +19,18 @@ public class TopicRepository : ITopicRepository
 
     public async Task CreateAsync(Topic topic, CancellationToken cancellationToken = default)
     {
-        await using var context = _contextFactory.CreateDbContext();
+        await using var context = contextFactory.CreateDbContext();
 
         context.Topics.Add(topic);
 
         await context.SaveChangesAsync(cancellationToken);
     }
 
-    public async Task<Topic> GetTopic(Guid topicId, CancellationToken cancellationToken = default)
+    public async Task<Topic> GetTopicAsync(Guid topicId, CancellationToken cancellationToken = default)
     {
-        await using var context = _contextFactory.CreateDbContext();
+        await using var context = contextFactory.CreateDbContext();
 
-        var topic = await context.Topics.FirstOrDefaultAsync(x => x.Id == topicId, cancellationToken);
+        var topic = await context.Topics.FirstOrDefaultAsync(x => Equals(x.Id, topicId), cancellationToken);
 
         if (topic is null)
         {

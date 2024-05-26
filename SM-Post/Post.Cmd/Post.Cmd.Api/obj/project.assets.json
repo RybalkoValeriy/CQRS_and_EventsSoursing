@@ -613,6 +613,20 @@
         "runtime": {
           "bin/placeholder/Post.Common.dll": {}
         }
+      },
+      "Post.Query.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CQRS.Core": "1.0.0",
+          "Post.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Post.Query.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Post.Query.Domain.dll": {}
+        }
       }
     }
   },
@@ -1626,6 +1640,11 @@
       "type": "project",
       "path": "../../Post.Common/Post.Common.csproj",
       "msbuildProject": "../../Post.Common/Post.Common.csproj"
+    },
+    "Post.Query.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Post.Query/Post.Query.Domain/Post.Query.Domain.csproj",
+      "msbuildProject": "../../Post.Query/Post.Query.Domain/Post.Query.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1634,29 +1653,28 @@
       "Post.Cmd.Domain >= 1.0.0",
       "Post.Cmd.Infrastructure >= 1.0.0",
       "Post.Common >= 1.0.0",
+      "Post.Query.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\valerii.rybalko\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Valeriy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj",
+      "projectUniqueName": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj",
       "projectName": "Post.Cmd.Api",
-      "projectPath": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj",
-      "packagesPath": "C:\\Users\\valerii.rybalko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\obj\\",
+      "projectPath": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\Post.Cmd.Api.csproj",
+      "packagesPath": "C:\\Users\\Valeriy\\.nuget\\packages\\",
+      "outputPath": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\valerii.rybalko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Valeriy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1665,25 +1683,26 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.frontiersin.net/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
-              "projectPath": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
+            "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+              "projectPath": "C:\\DEV\\Sources\\UdemyCQRS\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
             },
-            "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj": {
-              "projectPath": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj"
+            "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj": {
+              "projectPath": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj"
             },
-            "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj"
+            "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj": {
+              "projectPath": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj"
             },
-            "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Common\\Post.Common.csproj": {
-              "projectPath": "C:\\Users\\valerii.rybalko\\source\\repos\\CQRS_and_EventsSoursing\\SM-Post\\Post.Common\\Post.Common.csproj"
+            "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Common\\Post.Common.csproj": {
+              "projectPath": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Common\\Post.Common.csproj"
+            },
+            "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+              "projectPath": "C:\\DEV\\Sources\\UdemyCQRS\\SM-Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj"
             }
           }
         }
@@ -1722,7 +1741,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

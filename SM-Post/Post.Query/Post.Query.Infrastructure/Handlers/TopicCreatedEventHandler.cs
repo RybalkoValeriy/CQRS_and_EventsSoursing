@@ -8,8 +8,6 @@ namespace Post.Query.Infrastructure.Handlers;
 public class TopicCreatedEventHandler(ITopicRepository topicRepository)
     : IEventHandler<TopicCreateEvent, Topic>
 {
-    private IEventHandler<Topic, TopicCreateEvent> _eventHandlerImplementation;
-
     public async Task<Topic> SendAsync(TopicCreateEvent @event, CancellationToken cancellationToken = default)
     {
         var topic = new Topic
@@ -24,3 +22,5 @@ public class TopicCreatedEventHandler(ITopicRepository topicRepository)
         return topic;
     }
 }
+
+public class 

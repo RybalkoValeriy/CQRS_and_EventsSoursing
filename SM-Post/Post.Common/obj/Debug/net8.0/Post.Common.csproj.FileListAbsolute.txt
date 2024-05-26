@@ -1,0 +1,16 @@
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.deps.json
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.dll
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\bin\Debug\net8.0\Post.Common.pdb
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\bin\Debug\net8.0\CQRS.Core.dll
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\bin\Debug\net8.0\CQRS.Core.pdb
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.csproj.AssemblyReference.cache
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.AssemblyInfoInputs.cache
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.AssemblyInfo.cs
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.csproj.CoreCompileInputs.cache
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.sourcelink.json
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.csproj.CopyComplete
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.dll
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\refint\Post.Common.dll
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\Post.Common.pdb
+C:\DEV\Sources\UdemyCQRS\SM-Post\Post.Common\obj\Debug\net8.0\ref\Post.Common.dll

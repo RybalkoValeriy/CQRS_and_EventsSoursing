@@ -8,5 +8,5 @@ public interface ITopicRepository
 
     Task CreateAsync(Topic topic, CancellationToken cancellationToken = default);
 
-    Task<Topic> GetTopic(Guid topicId, CancellationToken cancellationToken = default);
+    Task<Topic> GetTopicAsync(Guid topicId, CancellationToken cancellationToken = default);
 }

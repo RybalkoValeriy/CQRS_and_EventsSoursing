@@ -1,6 +1,27 @@
 version: "3.4"
 
 services:
+  mongo:
+    image: mongo:latest
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - "mongodb_data_container:/data/db"
+
+  postgres:
+    image: postgres:latest
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgresPsw
+      POSTGRES_DB: postgres
+
   zookeeper:
     image: bitnami/zookeeper
     restart: always
@@ -30,7 +51,9 @@ volumes:
     driver: local
   kafka_data:
     driver: local
-   
+  mongodb_data_container:
+  postgresql_data:
+
 networks:
   default:
     external:

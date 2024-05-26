@@ -24,6 +24,7 @@ public class DatabaseContext : DbContext
     // configure database provider
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        #region seed
         // todo: seed update
         // var user1 = new Author
         // {
@@ -139,9 +140,9 @@ public class DatabaseContext : DbContext
         // modelBuilder
         //     .Entity<Article>()
         //     .HasData(article1, article2, article3, article4, article5, article6, article7);
-
+        #endregion
         modelBuilder.ApplyConfiguration(new UserConfiguration());
-        modelBuilder.ApplyConfiguration(new TopicConfiguration());
+        modelBuilder.TopicEntityConfiguration();
         modelBuilder.ApplyConfiguration(new ArticleConfiguration());
     }
 
@@ -149,16 +150,7 @@ public class DatabaseContext : DbContext
     {
         if (!options.IsConfigured)
         {
-            // var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-            //
-            // if (env is "Development.PostgreSQL")
-            // {
             options.UseNpgsql("host=localhost;database=postgres;user id=postgres;password=postgresPsw");
-            // }
-            // else
-            // {
-            //     // todo: use ms-sql
-            // }
         }
     }
 }

@@ -13,7 +13,7 @@ public class EventStoreRepository : IEventStoreRepository
 
     public EventStoreRepository()
     {
-        // should be from IOptions<MongoDbOptions>
+        //todo: should be from IOptions<MongoDbOptions>
         var connectionString = "mongodb://localhost:27017";
         var dataBase = "socialMedia";
         var collection = "eventStore";
